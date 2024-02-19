@@ -4,7 +4,9 @@ import audio1 from '../assets/mp4.mp3';
 
 
 
+
 const Card = () => {
+
 
   useEffect(() => {
     const audio = new Audio(audio1);
@@ -46,7 +48,7 @@ const Card = () => {
           <div className="text-content">
             <h3>Personalized Support, Anytime, Anywhere 🧑🏻‍⚕️</h3>
             <p>"Find personalized support and guidance with our Consultation services. Connect with experienced professionals to navigate life's challenges and foster growth."</p>
-            <a href="/">Get Support</a>
+            <a href="/videocall">Get Support</a>
           </div>
           <div className="visual">
             <img src="https://images.unsplash.com/photo-1485217988980-11786ced9454?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b25saW5lJTIwZG9jdG9yJTIwY29uc3VsdGF0aW9ufGVufDB8fDB8fHww" alt="" />
@@ -57,7 +59,7 @@ const Card = () => {
           <div className="text-content">
             <h3>Meditation:"Journey to Inner Peace" 🧘🏻‍♂️</h3>
             <p>Embark on a journey of self-discovery and tranquility with our Meditation platform. Cultivate mindfulness, reduce stress, and enhance well-being."</p> 
-            <a href="/meditation">Get Started</a>
+            <a href='/meditation' >Get Started</a>
           </div>
           <div className="visual">
             <img src="https://images.unsplash.com/photo-1474418397713-7ede21d49118?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVkaXRhdGlvbnxlbnwwfHwwfHx8MA%3D%3D" alt="" />
