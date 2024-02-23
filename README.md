@@ -1,4 +1,4 @@
-# CalmerYou-BetaProject
+# PeacePulse-BetaProject
 
 ## Installation
 
